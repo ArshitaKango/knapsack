@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knapsack Problem - Branch and Bound</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Knapsack Problem: Branch and Bound</h1>
+  <div class="input-container">
+    <h2>Enter Items</h2>
+    <form id="knapsackForm">
+      <label>Number of items:</label>
+      <input type="number" id="numItems" min="1" max="10" required>
+      <label>Knapsack Capacity:</label>
+      <input type="number" id="capacity" min="1" required>
+      <button type="button" onclick="createInputFields()">Add Items</button>
+    </form>
+  </div>
+  
+  <div id="itemsContainer" class="input-container"></div>
+  
+  <button id="solveBtn" onclick="solveKnapsack()">Solve Knapsack</button>
+  
+  <div id="resultContainer">
+    <h2>Steps</h2>
+    <table id="stepsTable">
+      <tr>
+        <th>Step</th>
+        <th>Node</th>
+        <th>Weight</th>
+        <th>Value</th>
+        <th>Bound</th>
+        <th>Decision</th>
+      </tr>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
