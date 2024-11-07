@@ -1,6 +1,10 @@
 # Knapsack Problem - Branch and Bound
 
+
 This project demonstrates the Branch and Bound algorithm to solve the Knapsack Problem. It provides a user-friendly interface where you can input item values, weights, and knapsack capacity, then displays the steps taken by the algorithm to reach an optimal solution.
+
+
+<img src='knap.png' alt="knapsack look" width='100%' />
 
 ## Features
 
