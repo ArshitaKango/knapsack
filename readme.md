@@ -15,7 +15,7 @@ This project demonstrates the Branch and Bound algorithm to solve the Knapsack P
 
 ## Deployed Link
 
- [Knapsack Problem - Branch and Bound](https://your-deployed-link.com)
+ [Knapsack Problem - Branch and Bound]([https://your-deployed-link.com](https://knapsack01.vercel.app/))
 
 
 ## Prerequisites
